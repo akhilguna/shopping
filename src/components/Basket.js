@@ -33,21 +33,34 @@ class Basket extends Component {
     const { cartItems } = this.props;
 
     return (
-      <div className="alert alert-info">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8">
+      <div className="cart-table">
         {cartItems.length === 0 ? (
           "Basket is empty"
         ) : (
-          <div>
-            You have {cartItems.length} items in the basket. <hr />
+          <div className="cart-items">
+            You have {cartItems.length} items in the basket.
           </div>
         )}
         {cartItems.length > 0 && (
           <div>
-            <ul style={{ marginLeft: -25 }}>
+            <table>
+            <thead>
+								<tr>
+									<th class="product-th">Product</th>
+									<th class="quy-th">Quantity</th>
+									<th class="size-th">SizeSize</th>
+									<th class="total-th">Price</th>
+								</tr>
+							</thead>
+            <tbody style={{ marginLeft: -25 }}>
               {cartItems.map((item) => (
-                <li key={item.id}>
-                  <b>{item.title}</b>
-                  <button
+                <tr key={item.id}>
+                  <td><img src={`products/${item.sku}.jpg`}/></td>
+                  <td><h4>{item.title}</h4></td>
+                  <td><button
                     style={{ float: "right" }}
                     className="btn btn-danger btn-xs"
                     onClick={(e) =>
@@ -55,27 +68,33 @@ class Basket extends Component {
                     }
                   >
                     X
-                  </button>
-                  <br />
-                  {item.count} X {util.formatCurrency(item.price)}
-                </li>
+                  </button>{item.availableSizes}</td>
+                  <td><h4>{item.count} X {util.formatCurrency(item.price)}</h4></td>
+                </tr>
               ))}
-            </ul>
-
-            <b>
+            </tbody>
+           </table>
+            <div className="total-cost">
               Sum:{" "}
               {util.formatCurrency(
                 cartItems.reduce((a, c) => a + c.price * c.count, 0)
               )}
-            </b>
             <button
               onClick={() => alert("Todo: Implement checkout page.")}
               className="btn btn-primary"
             >
               checkout
             </button>
+            </div>
           </div>
         )}
+      </div>
+      </div>
+      <div class="col-lg-4 card-right">
+					<a href="" class="site-btn">Proceed to checkout</a>
+					<a href="/dashboard" class="site-btn sb-dark">Continue shopping</a>
+				</div>
+      </div>
       </div>
     );
   }

@@ -102,15 +102,15 @@ class App1 extends Component {
           <h1>E-commerce Shopping Cart Application</h1>
           <hr />
           <div className="row">
-            <div className="col-md-9">
+            <div className="col-md-12">
               <Filter />
               <hr />
               <Products />
             </div>
-            <div className="col-md-3">
+            {/* <div className="col-md-3">
               <Basket />
-              {/* <Copyright /> */}
-            </div>
+              <Copyright />
+            </div> */}
           </div>
         </div>
     );

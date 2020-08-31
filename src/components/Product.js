@@ -35,14 +35,17 @@ class Products extends Component {
   render() {
     const productItems = this.props.products.map((product) => (
       <div className="col-md-4" key={product.id}>
-        <div className="thumbnail text-center">
+        <div className="text-center product-item">
+          <div className="pi-pic">
           <a
             href={`#${product.id}`}
             onClick={(e) => this.props.addToCart(this.props.cartItems, product)}
           >
-            <img src={`products/${product.sku}.jpg`} alt={product.title} />
-            <p>{product.title}</p>
+            <img src={`products/${product.sku}.jpg`} alt={product.title} width="264" height="409"/>
           </a>
+          </div>
+          <div className="pi-text">
+          <p>{product.title}</p>
           <b>{util.formatCurrency(product.price)}</b>
           <button
             className="btn btn-primary"
@@ -50,6 +53,7 @@ class Products extends Component {
           >
             Add to cart
           </button>
+          </div>
         </div>
       </div>
     ));

@@ -93,7 +93,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import { BrowserRouter,Route, NavLink} from "react-router-dom";
 import "./App.css";
-import App1 from "./App1";
+// import App1 from "./App1";
 import axios from 'axios';
 import FormComponent from "./components/Feedback";
 import Home from "./components/Home";
@@ -102,6 +102,9 @@ import Dashboard from "./components/Dashboard";
 import PrivateRoute from './Utils/PrivateRoute';
 import PublicRoute from './Utils/PublicRoute';
 import { getToken, removeUserSession, setUserSession } from './Utils/Common';
+import Footer from "./components/Footer";
+import Navigation from "./components/Navigation";
+import Basket from "./components/Basket";
 
 class App extends Component {
   render() {
@@ -109,6 +112,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <App2/>
+        <Footer/>
       </Provider>
     );
   }
@@ -137,17 +141,20 @@ function App2() {
 
   return (
     <BrowserRouter>
-    <div className="header">
+    {/* <div className="header">
       <NavLink exact activeClassName="active" to="/">Home</NavLink>
       <NavLink activeClassName="active" to="/login">Login</NavLink><small>(Access without token only)</small>
       <NavLink activeClassName="active" to="/dashboard">Dashboard</NavLink><small>(Access with token only)</small>
-    </div>
-      <Route path="/Home" component={App1} />
-      <Route path="/feedback" component={FormComponent} />
+    </div> */}
+    <Navigation/>
+      {/* <PrivateRoute path="/Home" component={App1} /> */}
+      <PrivateRoute path="/feedback" component={FormComponent} />
       <Route exact path="/" component={Home} />
         <PublicRoute path="/login" component={Login} />
         <PrivateRoute path="/dashboard" component={Dashboard} />
+        <PrivateRoute path="/cart" component={Basket} />
       </BrowserRouter>
+     
   );
 }
 

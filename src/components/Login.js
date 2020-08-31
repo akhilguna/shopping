@@ -24,18 +24,26 @@ function Login(props) {
   }
 
   return (
-    <div>
-      Login<br /><br />
-      <div>
-        Username<br />
-        <input type="text" {...username} autoComplete="new-password" />
+    <div className="container">
+      <div className="col-md-12  login text-center">
+      <div class="card">
+      <div class="card-body">
+    <h5 class="card-title">Login</h5>
+       <form class="login-form">
+      <div className="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+        <input type="text" {...username} autoComplete="new-password" class="form-control" id="exampleInputEmail1" placeholder="enter the email" />
       </div>
-      <div style={{ marginTop: 10 }}>
-        Password<br />
-        <input type="password" {...password} autoComplete="new-password" />
+      <div style={{ marginTop: 10 }} className="form-group">
+      <label for="password">Password</label>
+        <input type="password" {...password} autoComplete="new-password"class="form-control" id="password" placeholder="enter the password"/>
       </div>
       {error && <><small style={{ color: 'red' }}>{error}</small><br /></>}<br />
-      <input type="button" value={loading ? 'Loading...' : 'Login'} onClick={handleLogin} disabled={loading} /><br />
+      <input type="button" className="site-btn" value={loading ? 'Loading...' : 'Login'} onClick={handleLogin} disabled={loading} /><br />
+      </form>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }
