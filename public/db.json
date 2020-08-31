@@ -1,0 +1,564 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": 18644119330491312,
+      "title": "Sphynx Tie Dye Grey T-Shirt",
+      "description": "Sphynx Tie Dye Grey",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "price": 10,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 2,
+      "sku": 11854078013954528,
+      "title": "Danger Knife Grey T-Shirt",
+      "description": "Danger Knife Grey",
+      "availableSizes": ["X", "M", "L"],
+      "price": 14.9,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 3,
+      "sku": 876661122392077,
+      "title": "White DGK Script Tee",
+      "description": "White DGK Script",
+      "availableSizes": ["X", "M", "L"],
+      "price": 14.9,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 4,
+      "sku": 9197907543445677,
+      "title": "Born On The Streets  T-Shirt",
+      "description": "Born On The Streets",
+      "availableSizes": ["XL"],
+      "price": 25.9,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 5,
+      "sku": 10547961582846888,
+      "title": "Tso 3D Short Sleeve T-Shirt A",
+      "description": "Tso 3D Short Sleeve",
+      "availableSizes": ["X", "L", "XL"],
+      "price": 10.9,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 6,
+      "sku": 6090484789343891,
+      "title": "Man Tie Dye Cinza Grey T-Shirt",
+      "description": "Man Tie Dye Cinza Grey",
+      "availableSizes": ["XL", "XXL"],
+      "price": 49.9,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 7,
+      "sku": 18532669286405342,
+      "title": "Crazy Monkey Black T-Shirt",
+      "description": "1977 Infantil",
+      "availableSizes": ["S"],
+      "style": "Preto com listras brancas",
+      "price": 22.5,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 8,
+      "sku": 5619496040738316,
+      "title": "Tso 3D Black T-Shirt",
+      "description": "",
+      "availableSizes": ["XL"],
+      "style": "Azul escuro",
+      "price": 18.7,
+      "isFreeShipping": false
+    },
+    {
+      "id": 9,
+      "sku": 11600983276356165,
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 10,
+"sku":2,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id":11,
+"sku":3,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 12,
+"sku":4,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 13,
+"sku":5,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 14,
+"sku":6,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 15, 
+"sku":7,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 16,
+"sku":8,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 17,
+"sku":9,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 18,
+"sku":10,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 19,
+"sku":11,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 20,
+"sku":12,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 21,
+"sku":13,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 22,
+"sku":14,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 23,
+"sku":15,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 24,
+"sku":16,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 25,
+"sku":17,      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 26,
+      "sku":18,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 27,
+      "sku":19,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 28,
+      "sku":20,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 29,
+      "sku":21,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 30,
+      "sku":22,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 31,
+      "sku":23,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 32,
+      "sku":24,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 33,
+      "sku":25,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 34,
+      "sku":26,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 35,
+      "sku":27,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 36,
+      "sku":28,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 37,
+      "sku":29,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 38,
+      "sku":30,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 39,
+      "sku":31,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 40,
+      "sku":32,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 41,
+      "sku":33,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 42,
+      "sku":34,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 43,
+      "sku":35,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 43,
+      "sku":36,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 43,
+      "sku":37,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 44,
+      "sku":38,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 45,
+      "sku":39,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 46,
+      "sku":40,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 47,
+      "sku":41,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 48,
+      "sku":42,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 49,
+      "sku":43,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 50,
+      "sku":44,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 51,
+      "sku":45,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 52,
+      "sku":45,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 53,
+      "sku":46,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 54,
+      "sku":47,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 55,
+      "sku":48,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 56,
+      "sku":49,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 56,
+      "sku":50,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 56,
+      "sku":51,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 56,
+      "sku":52,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 56,
+      "sku":53,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 56,
+      "sku":54,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    }
+  ]
+}
