@@ -50,8 +50,8 @@ class Filter extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col-md-4">{`${this.props.filteredProducts.length} products found.`}</div>
-        <div className="col-md-4">
+        <div className="col-md-12">{`${this.props.filteredProducts.length} products found.`}</div>
+        <div className="col-md-12">
           <label>
             Order by
             <select
@@ -69,8 +69,9 @@ class Filter extends Component {
               <option value="highestprice">Highest to lowest</option>
             </select>
           </label>
+  
         </div>
-        <div className="col-md-4">
+        <div className="col-md-12">
           <label>
             {" "}
             Filter Size

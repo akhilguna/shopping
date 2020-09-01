@@ -1,5 +1,7 @@
 import React from "react";
 import axios from 'axios';
+import Map from "./Map";
+import SimpleMap from "./Map";
 
 const emailValidator = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 const passwordValidator = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
@@ -184,7 +186,7 @@ export default class FormComponent extends React.Component {
     return (
       <React.Fragment>
         
-      <div className="container">
+      <div className="container feedback">
       <div class="row">
       <div class="col-md-6 bg-image">
       <div className="contact-info">
@@ -293,8 +295,10 @@ export default class FormComponent extends React.Component {
       </div>
       </div>
       <div class="col-md-6">
-      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14376.077865872314!2d-73.879277264103!3d40.757667781624285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1546528920522" allowfullscreen="" height="1000"></iframe></div>
+       {/* <div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14376.077865872314!2d-73.879277264103!3d40.757667781624285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1546528920522" allowfullscreen="" height="1000"></iframe></div>
+      </div>  */}
+      <SimpleMap/>
       </div>
       </div>
       </div>

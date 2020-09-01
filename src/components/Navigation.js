@@ -10,7 +10,6 @@ function Navigation() {
       <NavLink activeClassName="active" to="/dashboard">Dashboard</NavLink><small>(Access with token only)</small>
     </div> */}
     <ul class="main-menu">
-					<li><a href="/">Home</a></li>
 					<li><a href="/login">Login</a></li>
 					<li><a href="/dashboard">Dashboard</a></li>
                     <li><a href="/feedback">Feedback</a></li>

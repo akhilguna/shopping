@@ -91,7 +91,7 @@
 import React, { Component } from "react";
 import Products from "./components/Product";
 import Filter from "./components/Filter";
-import Basket from "./components/Basket";
+// import Basket from "./components/Basket";
 // import Copyright from "./components/Copyright";
 
 class App1 extends Component {
@@ -99,12 +99,11 @@ class App1 extends Component {
   render() {
     return (
         <div className="container">
-          <h1>E-commerce Shopping Cart Application</h1>
-          <hr />
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-2">
               <Filter />
-              <hr />
+            </div>
+            <div className="col-md-10">
               <Products />
             </div>
             {/* <div className="col-md-3">

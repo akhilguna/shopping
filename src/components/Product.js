@@ -43,16 +43,16 @@ class Products extends Component {
           >
             <img src={`products/${product.sku}.jpg`} alt={product.title} width="264" height="409"/>
           </a>
+          <div class="pi-links">
+										<a href="#" class="add-card"><i class="fa fa-shopping-bag" onClick={(e) => this.props.addToCart(this.props.cartItems, product)}></i></a>
+										<a href="#" class="wishlist-btn"><i class="fa fa-heart"></i></a>
+					</div>
           </div>
           <div className="pi-text">
+          <h6>{util.formatCurrency(product.price)}</h6>
           <p>{product.title}</p>
-          <b>{util.formatCurrency(product.price)}</b>
-          <button
-            className="btn btn-primary"
-            onClick={(e) => this.props.addToCart(this.props.cartItems, product)}
-          >
-            Add to cart
-          </button>
+       
+       
           </div>
         </div>
       </div>

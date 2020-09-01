@@ -96,7 +96,6 @@ import "./App.css";
 // import App1 from "./App1";
 import axios from 'axios';
 import FormComponent from "./components/Feedback";
-import Home from "./components/Home";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import PrivateRoute from './Utils/PrivateRoute';
@@ -105,6 +104,7 @@ import { getToken, removeUserSession, setUserSession } from './Utils/Common';
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import Basket from "./components/Basket";
+import Checkout from "./components/Checkout";
 
 class App extends Component {
   render() {
@@ -149,10 +149,10 @@ function App2() {
     <Navigation/>
       {/* <PrivateRoute path="/Home" component={App1} /> */}
       <PrivateRoute path="/feedback" component={FormComponent} />
-      <Route exact path="/" component={Home} />
         <PublicRoute path="/login" component={Login} />
         <PrivateRoute path="/dashboard" component={Dashboard} />
         <PrivateRoute path="/cart" component={Basket} />
+        <PrivateRoute path="/checkout" component={Checkout} />
       </BrowserRouter>
      
   );

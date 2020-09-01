@@ -508,15 +508,6 @@
     },
     {
       "id": 56,
-      "sku":49,      
-      "title": "Crazy Monkey Grey",
-      "description": "",
-      "availableSizes": ["L", "XL"],
-      "price": 134.9,
-      "isFreeShipping": true
-    },
-    {
-      "id": 56,
       "sku":50,      
       "title": "Crazy Monkey Grey",
       "description": "",
@@ -525,7 +516,7 @@
       "isFreeShipping": true
     },
     {
-      "id": 56,
+      "id": 57,
       "sku":51,      
       "title": "Crazy Monkey Grey",
       "description": "",
@@ -534,7 +525,7 @@
       "isFreeShipping": true
     },
     {
-      "id": 56,
+      "id": 58,
       "sku":52,      
       "title": "Crazy Monkey Grey",
       "description": "",
@@ -543,7 +534,16 @@
       "isFreeShipping": true
     },
     {
-      "id": 56,
+      "id": 59,
+      "sku":52,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 60,
       "sku":53,      
       "title": "Crazy Monkey Grey",
       "description": "",
@@ -552,8 +552,44 @@
       "isFreeShipping": true
     },
     {
-      "id": 56,
+      "id": 61,
       "sku":54,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 62,
+      "sku":54,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 63,
+      "sku":55,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 64,
+      "sku":56,      
+      "title": "Crazy Monkey Grey",
+      "description": "",
+      "availableSizes": ["L", "XL"],
+      "price": 134.9,
+      "isFreeShipping": true
+    },
+    {
+      "id": 65,
+      "sku":57,      
       "title": "Crazy Monkey Grey",
       "description": "",
       "availableSizes": ["L", "XL"],

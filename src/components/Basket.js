@@ -33,15 +33,15 @@ class Basket extends Component {
     const { cartItems } = this.props;
 
     return (
-      <div className="container">
+      <div className="container feedback">
         <div className="row">
           <div className="col-lg-8">
       <div className="cart-table">
         {cartItems.length === 0 ? (
-          "Basket is empty"
+          <h6>Basket is empty</h6>
         ) : (
           <div className="cart-items">
-            You have {cartItems.length} items in the basket.
+            <h6>You have {cartItems.length} items in the basket.</h6>
           </div>
         )}
         {cartItems.length > 0 && (
@@ -51,34 +51,33 @@ class Basket extends Component {
 								<tr>
 									<th class="product-th">Product</th>
 									<th class="quy-th">Quantity</th>
-									<th class="size-th">SizeSize</th>
+									<th class="size-th">Size</th>
 									<th class="total-th">Price</th>
 								</tr>
 							</thead>
             <tbody style={{ marginLeft: -25 }}>
               {cartItems.map((item) => (
                 <tr key={item.id}>
-                  <td><img src={`products/${item.sku}.jpg`}/></td>
-                  <td><h4>{item.title}</h4></td>
-                  <td><button
-                    style={{ float: "right" }}
-                    className="btn btn-danger btn-xs"
-                    onClick={(e) =>
+                  <td class="product-col"><img src={`products/${item.sku}.jpg`}/>
+                  <div class="pc-title">
+											<h4>{item.title}</h4>
+                      <p>{item.price}</p>
+										</div>
+                  </td>
+                  <td className="quy-col"><h4>{item.count}</h4></td>
+                  <td className="size-col"><h4>Size{item.availableSizes[0]}</h4></td>
+                  <td className="total-col"><h4>{item.count} X {util.formatCurrency(item.price)}<button    onClick={(e) =>
                       this.props.removeFromCart(this.props.cartItems, item)
-                    }
-                  >
-                    X
-                  </button>{item.availableSizes}</td>
-                  <td><h4>{item.count} X {util.formatCurrency(item.price)}</h4></td>
+                    }>X</button></h4></td>
                 </tr>
               ))}
             </tbody>
            </table>
             <div className="total-cost">
-              Sum:{" "}
+              <h6>Total:{" "}
               {util.formatCurrency(
                 cartItems.reduce((a, c) => a + c.price * c.count, 0)
-              )}
+              )}</h6>
             <button
               onClick={() => alert("Todo: Implement checkout page.")}
               className="btn btn-primary"
